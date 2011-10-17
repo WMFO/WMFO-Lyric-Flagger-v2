@@ -1,0 +1,51 @@
+WMFO Lyrics Flager
+WMFO - Tufts Freeform Radio
+Version 2.0
+Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang
+Distributed under the terms of the GNU General Public License
+
+Ben Yu
+ops@wmfo.org
+Andy Sayler
+andy@wmfo.org
+Phil Tang
+ops@wmfo.org
+
+Overview:
+
+The goal of the lyrics flagger is to traverse a database of songs and
+determine if any of the songs contain specific lyrics. Songs that contain
+these lyrics are flagged to indicate this fact in the database.
+
+Currently the program is designed to interface with the Rivendell
+Radio Automation System (www.rivendellaudio.org), Version 2. It is primarly
+used to search lyrics for speicifc profnae words and then flag these songs
+as profane in the Rivendell library, thsu isnuring that they are not
+inserted into the automaticlly generated automation logs.
+
+Version 2 constitutes a significant rewrite of the version 1 code to
+minimize dependencies, and avoid the use of the now defunct LyricsFly API.
+
+Files:
+
+README             - This informative file.
+COPYING            - Copyright License
+filter.regex       - A file with specific regex staments designed to detect
+                     profane English words
+html_decode.sed    - 
+process.sh         - 
+src/sed_generate.c - 
+src/urlencode.c    - 
+check_res          - ?
+sed_generate       - Executable built from src/sed_generate.c
+urlencode          - Executable built from src/urlencode.c
+
+ToDo:
++ Create modular regex search file system
+  (for use with various regex filter files)
++ Create modular lyrics website system
+  (for use with various lyrics websites)
++ Create modular database access system
+  (for use with system other than Rivendell)
+
+License: See COPYING
