@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# WMFO Lyrics Flager
+# WMFO Lyrics Flagger
 # WMFO - Tufts Freeform Radio
 # Version 2.0
 # Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang

@@ -1,4 +1,4 @@
-WMFO Lyrics Flager
+WMFO Lyrics Flagger
 WMFO - Tufts Freeform Radio
 Version 2.0
 Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang
@@ -26,6 +26,10 @@ inserted into the automaticlly generated automation logs.
 Version 2 constitutes a significant rewrite of the version 1 code to
 minimize dependencies, and avoid the use of the now defunct LyricsFly API.
 
+Note: The source code has been stripped of any WMFO specific credentails.
+      These credential may need to be readded for your instalation before
+      this code will run.
+
 Files:
 
 README             - This informative file.
@@ -36,11 +40,13 @@ html_decode.sed    -
 process.sh         - 
 src/sed_generate.c - 
 src/urlencode.c    - 
-check_res          - ?
+check_res          - Executable built from ?
 sed_generate       - Executable built from src/sed_generate.c
 urlencode          - Executable built from src/urlencode.c
 
 ToDo:
++ Add makefile
++ Add more documentation
 + Create modular regex search file system
   (for use with various regex filter files)
 + Create modular lyrics website system
