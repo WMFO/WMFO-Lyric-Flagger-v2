@@ -3,6 +3,7 @@ WMFO - Tufts Freeform Radio
 Version 2.0
 Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang
 Distributed under the terms of the GNU General Public License
+Including additional terms located in file TERMS.
 
 Ben Yu
 ops@wmfo.org
@@ -54,4 +55,4 @@ ToDo:
 + Create modular database access system
   (for use with system other than Rivendell)
 
-License: See COPYING
+License: See COPYING and TERMS

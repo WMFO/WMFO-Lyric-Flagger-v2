@@ -672,17 +672,3 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
-
-Additional Terms
-These additional terms apply under section 7 of the GPLv3. As described
-in section 7,  of the GPLv3, you must keep intact the following
-notice if you are distributing a modified copy and/or derivative work:
-
-"This software is based on a work copyright Benjamin Yu, Andrew Sayler,
-and Phillip Tang 2010,2011. They give no warranties regarding this
-derivative work. Said original work was made for the service of WMFO
-Medford 91.5, Tufts Freeform Radio. WMFO grants no warranty of this work
-and is not responsible for any misfunction of this software."
-
-Be aware, that you are required to include this additional term
-when you distribute your work.

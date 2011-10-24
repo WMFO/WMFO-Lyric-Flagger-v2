@@ -3,6 +3,7 @@
  * Version 2.0
  * Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang
  * Distributed under the terms of the GNU General Public License
+ * Including additional terms located in file TERMS
  *
  * urlencode.c - 
  *

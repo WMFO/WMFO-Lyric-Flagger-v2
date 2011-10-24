@@ -5,8 +5,9 @@
 # Version 2.0
 # Copyright 2010, 2011 Ben Yu, Andy Sayler, Phil Tang
 # Distributed under the terms of the GNU General Public License
+# Including additional terms as listed in file TERMS
 #
-# process.sh - 
+# process.sh - main program script
 #
 # Please maintain attribution/contribution list where praticle
 #
