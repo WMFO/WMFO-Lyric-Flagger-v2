@@ -19,16 +19,16 @@ determine if any of the songs contain specific lyrics. Songs that contain
 these lyrics are flagged to indicate this fact in the database.
 
 Currently the program is designed to interface with the Rivendell
-Radio Automation System (www.rivendellaudio.org), Version 2. It is primarly
-used to search lyrics for speicifc profnae words and then flag these songs
-as profane in the Rivendell library, thsu isnuring that they are not
+Radio Automation System (www.rivendellaudio.org), Version 2. It is primarily
+used to search lyrics for specific profane words and then flag these songs
+as profane in the Rivendell library, thus insuring that they are not
 inserted into the automaticlly generated automation logs.
 
 Version 2 constitutes a significant rewrite of the version 1 code to
 minimize dependencies, and avoid the use of the now defunct LyricsFly API.
 
 Note: The source code has been stripped of any WMFO specific credentails.
-      These credentials may need to be readded for your installation before
+      These credentials may need to be re-added to your installation before
       this code will run.
 
 Files:
