@@ -12,6 +12,11 @@ andy@wmfo.org
 Phil Tang
 ops@wmfo.org
 
+NOTE: The LyricsWiki API that this program uses no longer returns full lyrics
+results, instead only returning about 1/7th of the results. This is a major bug
+that causus all LyricsFlagger reults to be called into question. We are working
+on a fix, but please do not trust the current results.
+
 Overview:
 
 The goal of the lyrics flagger is to traverse a database of songs and
